@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="External Storage"
+            android:textColor="@color/color3"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="20sp"/>
+
+    <EditText
+            android:id="@+id/fileTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edit_text_height"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="50dp"
+            android:hint="File Name"
+            android:background="@color/color3"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/login_edit_text_space"
+            android:textSize="@dimen/login_text_size"
+            android:textColorHint="@color/colorPrimaryText"
+            android:textColor="@color/colorPrimaryText"/>
+
+    <EditText
+            android:id="@+id/fileContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="50dp"
+            android:hint="File Content"
+            android:background="@color/color3"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/login_edit_text_space"
+            android:textSize="@dimen/login_text_size"
+            android:gravity="top"
+            android:textColorHint="@color/colorPrimaryText"
+            android:textColor="@color/colorPrimaryText"/>
+
+    <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_button_xl_height"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="32dp"
+            android:background="@color/color2"
+            android:text="Save"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/login_text_xl_size" />
+
+    <Button
+            android:id="@+id/button_see"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_button_xl_height"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/color1"
+            android:layout_marginRight="32dp"
+            android:text="show"
+            android:textColor="@color/color3"
+            android:textSize="@dimen/login_text_xl_size" />
+
+
+
+</LinearLayout>
